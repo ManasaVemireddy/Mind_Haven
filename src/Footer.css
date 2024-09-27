@@ -1,1 +1,17 @@
-
+.footer {
+    background-color: #081830;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .footer {
+    background-color: #081830; /* Same blue color as navbar */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative; /* Changed to ensure it stays at the bottom of the content */
+  }
+  
