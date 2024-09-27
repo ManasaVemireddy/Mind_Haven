@@ -1,0 +1,36 @@
+.hero-container {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/portrait-millennial-friends-living-life-country-side-after-moving-from-city_23-2151123782.jpg?t=st=1727437245~exp=1727440845~hmac=0d3bd44d67d785d9022fc190e41cfa873b980837e51ff2cfa15d5cc9d8c2e466&w=996'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 255, 0.4); /* Blue overlay */
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+  
