@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #081830; /* Blue color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin: 0; /* Remove default margin */
+  border: none; /* Remove any borders */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-links li a {
+  color: white; /* White text */
+  text-decoration: none;
+  font-size: 1.2rem;
+}
